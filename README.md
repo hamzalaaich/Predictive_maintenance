@@ -56,7 +56,8 @@ first go inside the src folder :
        cd src 
       ```
 then launch the web service ( make sure the api is up and running before : )
-      ```bash
+
+      ```
        streamlit UI.py
       ```
  
