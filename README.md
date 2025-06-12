@@ -39,9 +39,10 @@ A FastAPI-based API for predicting Remaining Useful Life (RUL) in predictive mai
 
 
 5. **Run the API**:
+in the root of the project run : 
 
     ```bash
-    uvicorn src.api.main:app --reload
+    uvicorn src.api:app --reload
     ```
 
 6. **Access the API Documentation**:
@@ -49,6 +50,16 @@ A FastAPI-based API for predicting Remaining Useful Life (RUL) in predictive mai
     - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
     - **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
+7. **Run  the Web service for RUL prediction**:    
+first go inside the src folder : 
+      ```bash
+       cd src 
+      ```
+then launch the web service ( make sure the api is up and running before : )
+    ```bash
+    streamlit UI.py
+    ```
+ 
 ## Usage
 
 ### Single Prediction
