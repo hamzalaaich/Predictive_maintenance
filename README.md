@@ -8,7 +8,6 @@ A FastAPI-based API for predicting Remaining Useful Life (RUL) in predictive mai
 
 - **Single Prediction Endpoint**: `/predict`
 - **Batch Prediction Endpoint**: `/batch_predict`
-- **API Key Authentication**
 - **Input Validation and Error Handling**
 - **Logging for Monitoring and Debugging**
 - **Interactive API Documentation**
@@ -37,13 +36,7 @@ A FastAPI-based API for predicting Remaining Useful Life (RUL) in predictive mai
     pip install -r requirements.txt
     ```
 
-4. **Configure Environment Variables**:
 
-    - Create a `.env` file in the project root:
-
-        ```
-        API_KEY=your-secure-api-key
-        ```
 
 5. **Run the API**:
 
